@@ -7,7 +7,7 @@ PaginationSeekBar is Android UI Library for Easy&Quick Pagination. I recommand t
 ## Gradle Dependency
 ```gradle
 dependencies {
-	compile 'com.ssumunity.android:paginationseekbar:1.0.4'
+	compile 'com.ssumunity.android:paginationseekbar:1.0.5'
 }
 ```
 
