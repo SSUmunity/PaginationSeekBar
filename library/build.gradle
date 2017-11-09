@@ -5,7 +5,7 @@ publish {
     userOrg = "ssumunity-oss"
     groupId = "com.ssumunity.android"
     artifactId = "paginationseekbar"
-    publishVersion = "1.0.4"
+    publishVersion = "1.0.5"
     desc = "Pagination view library for android"
     website = "https://github.com/SSUmunity/PaginationSeekBar"
     issueTracker = "https://github.com/SSUmunity/PaginationSeekBar/issues"
@@ -18,8 +18,8 @@ android {
     defaultConfig {
         minSdkVersion 18
         targetSdkVersion 27
-        versionCode 5
-        versionName "1.0.4"
+        versionCode 6
+        versionName "1.0.5"
     }
 }
 
