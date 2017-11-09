@@ -1,17 +1,17 @@
-#PaginationSeekBar
-[ ![Download](https://api.bintray.com/packages/ssumunity-oss/maven/paginationseekbar/images/download.svg)  ](https://bintray.com/ssumunity-oss/maven/paginationseekbar/_latestVersion)
+# PaginationSeekBar
+[ ![Download](https://api.bintray.com/packages/ssumunity-oss/maven/paginationseekbar/images/download.svg)  ](https://bintray.com/ssumunity-oss/maven/paginationseekbar/_latestVersion)  
 ![screenshot](https://media.giphy.com/media/26uf55vfqgoEAmlO0/giphy.gif)
 
 PaginationSeekBar is Android UI Library for Easy&Quick Pagination. I recommand that, Use this for Board(List, Grid)UI.
 
-##Gradle Dependency
+## Gradle Dependency
 ```gradle
 dependencies {
 	compile 'com.ssumunity.android:paginationseekbar:1.0.4'
 }
 ```
 
-##Implementation details
+## Implementation details
 This thing runs on minSDK=7 (well, technically could run 4 but can't test since AVDs for api 4 are deprecated and just don't boot).
 Obviously some of the subtle animations (navigating with the Keyboard, the Ripple effect, text fade ins/fade outs, etc) are not going to work on APIS lower than 11, but the bubble thing does. And I haven't found a way of improving this with 11-21 APIs, so...
 
@@ -41,7 +41,7 @@ Once imported into your project, you just need to put them into your layous like
 />
 ```
 
-####Parameters
+## Parameters
 You can tweak a few things of the PaginationSeekbar:
 
 * **psb_pageCountPerOneBoard**: set Pagecount per OneBoard (Recommand 5 or 10)
@@ -62,7 +62,7 @@ You can also use the attribute **paginationSeekBarStyle** on your themes with a 
 
 Thanks for [Gustavo Claramunt]'s [DiscreteSeekBar]
 
-##License
+## License
 ```
 Copyright 2017 SSUmunity
 
