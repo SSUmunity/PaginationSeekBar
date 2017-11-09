@@ -25,10 +25,10 @@ The material-floating-thing is composed into the WindowManager (like the typical
 
 >For this I'm not sure about the amounts of things I've copied from [PopupWindow] and the possible issues.
 
-##Dependencies
+## Dependencies
 It uses **com.android.support:support-v4** as the only dependency.
 
-##Usage
+## Usage
 
 Once imported into your project, you just need to put them into your layous like:
 ```xml
