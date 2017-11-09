@@ -1,5 +1,5 @@
 #PaginationSeekBar
-[ ![Download](https://api.bintray.com/packages/ace-jckim/maven/paginationseekbar/images/download.svg)  ](https://bintray.com/ace-jckim/maven/paginationseekbar/_latestVersion)  
+[ ![Download](https://api.bintray.com/packages/ssumunity-oss/maven/paginationseekbar/images/download.svg)  ](https://bintray.com/ssumunity-oss/maven/paginationseekbar/_latestVersion)
 ![screenshot](https://media.giphy.com/media/26uf55vfqgoEAmlO0/giphy.gif)
 
 PaginationSeekBar is Android UI Library for Easy&Quick Pagination. I recommand that, Use this for Board(List, Grid)UI.
@@ -7,7 +7,7 @@ PaginationSeekBar is Android UI Library for Easy&Quick Pagination. I recommand t
 ##Gradle Dependency
 ```gradle
 dependencies {
-	compile 'com.acious.android:paginationseekbar:1.0.3'
+	compile 'com.ssumunity.android:paginationseekbar:1.0.4'
 }
 ```
 
@@ -32,7 +32,7 @@ It uses **com.android.support:support-v4** as the only dependency.
 
 Once imported into your project, you just need to put them into your layous like:
 ```xml
-<com.acious.andorid.paginationseekbar.PaginationSeekBar
+<com.ssumunity.andorid.paginationseekbar.PaginationSeekBar
 	android:id="@+id/test_seekbar"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -64,7 +64,7 @@ Thanks for [Gustavo Claramunt]'s [DiscreteSeekBar]
 
 ##License
 ```
-Copyright 2016 Jongchan Kim (Acious)
+Copyright 2017 SSUmunity
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
